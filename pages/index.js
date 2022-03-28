@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 import Link from 'next/link'
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
              <div className=' md:col-span-1 relative inline-block mt-20 bg-slate-700 h-auto rounded-lg gap-4 shadow-2xl shadow-slate-900 '>
                 <div className='grid grid-rows-8'>
                     <div className='grid grid-col justify-center items-center mt-10 hover:animate-ping'>
-                             <Image className='rounded-3xl'
+                             <img className='rounded-3xl'
                               src="/me.jpg"
                               alt='mountain'
                               width="250px"
