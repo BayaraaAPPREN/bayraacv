@@ -6,6 +6,7 @@ const nextConfig = {
 module.exports = {
   env: {
     PUBLIC_URL: "https://bayaraaappren.github.io/bayraacv/",
+    BACKEND_URL: './styles/globals.css',
     assetPrefix: './'
   }
 };
